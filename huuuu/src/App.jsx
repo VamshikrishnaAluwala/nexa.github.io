@@ -5,11 +5,11 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import BRDCreationLoading from "./pages/BRDCreationLoading";
 import Login from "./pages/Login";
 import Dashboard from "./pages/Dashboard";
 import NewProject from "./pages/NewProject";
 import BRDCreationStep from "./pages/BRDCreationStep";
+import BRDCreationLoading from "./pages/BRDCreationLoading";
 import BRDCreated from "./pages/BRDCreated";
 import PRDCreation from "./pages/PRDCreation";
 
@@ -33,10 +33,6 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/login":
-        title = "";
-        metaDescription = "";
-        break;
       case "/dashboard":
         title = "";
         metaDescription = "";
@@ -46,6 +42,10 @@ function App() {
         metaDescription = "";
         break;
       case "/brdcreationstep1":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/brdcreationloading":
         title = "";
         metaDescription = "";
         break;
@@ -75,11 +75,11 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<BRDCreationLoading />} />
-      <Route path="/login" element={<Login />} />
+      <Route path="/" element={<Login />} />
       <Route path="/dashboard" element={<Dashboard />} />
       <Route path="/new-project" element={<NewProject />} />
       <Route path="/brdcreationstep1" element={<BRDCreationStep />} />
+      <Route path="/brdcreationloading" element={<BRDCreationLoading />} />
       <Route path="/brdcreated" element={<BRDCreated />} />
       <Route path="/prdcreation" element={<PRDCreation />} />
     </Routes>
