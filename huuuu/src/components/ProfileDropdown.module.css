@@ -1,0 +1,139 @@
+.matImgChild {
+  position: absolute;
+  top: calc(50% - 40px);
+  left: calc(50% - 140px);
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+.span {
+  position: relative;
+  letter-spacing: 0.25px;
+  line-height: 140%;
+}
+.span1 {
+  position: relative;
+  font-size: var(--v-text-button-size);
+  letter-spacing: 0.1px;
+  line-height: 22px;
+  font-family: var(--v-text-subtitle-1);
+}
+.spanParent {
+  position: absolute;
+  top: calc(50% - 25px);
+  left: 116px;
+  width: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.matImg {
+  align-self: stretch;
+  position: relative;
+  background: conic-gradient(
+    from 90deg at 50% 50%,
+    #711a31 0deg,
+    #ed1515 360deg
+  );
+  height: 120px;
+}
+.accountOutlineIcon {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.myProfile {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--v-icon-small-size);
+  letter-spacing: 0.15px;
+  line-height: 28px;
+  font-family: var(--v-text-subtitle-1);
+  color: var(--black-dark-2);
+  text-align: left;
+}
+.secondaryText {
+  width: 238px;
+  position: relative;
+  font-size: var(--v-text-button-size);
+  letter-spacing: 0.25px;
+  line-height: 20px;
+  font-family: var(--text-body-2);
+  color: var(--black-06);
+  text-align: left;
+  display: none;
+}
+.vListItemContent {
+  align-self: stretch;
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0px;
+  gap: var(--gap-11xs);
+}
+.matListItem {
+  cursor: pointer;
+  border: none;
+  padding: 0px var(--padding-base);
+  background-color: transparent;
+  align-self: stretch;
+  height: 56px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.matListItem1 {
+  cursor: pointer;
+  border: none;
+  padding: 0px var(--padding-base);
+  background-color: var(--neutral-white);
+  align-self: stretch;
+  height: 56px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.matList {
+  align-self: stretch;
+  background-color: var(--neutral-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.profileDropdown {
+  width: 320px;
+  position: relative;
+  box-shadow: var(--elevation-4);
+  border-radius: 0px 0px 0px var(--br-xs);
+  background-color: var(--neutral-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  max-height: 100%;
+  text-align: center;
+  font-size: var(--v-text-h4-size);
+  color: var(--neutral-white);
+  font-family: var(--v-text-button);
+}

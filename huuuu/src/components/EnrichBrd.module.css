@@ -1,0 +1,43 @@
+.writeYourPrompt {
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 100%;
+  z-index: 0;
+}
+.floatingLabel {
+  width: 84px;
+  margin: 0 !important;
+  position: absolute;
+  top: -6px;
+  left: 8px;
+  background-color: var(--neutral-white);
+  height: 12px;
+  display: none;
+  z-index: 1;
+}
+.inputSlot {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  background-color: var(--neutral-white);
+  border: 1px solid var(--neutral-mid-grey);
+  box-sizing: border-box;
+  height: 140px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs);
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.enrichBrd {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--v-text-button-size);
+  color: var(--neutral-mid-grey);
+  font-family: var(--text-body-2);
+}

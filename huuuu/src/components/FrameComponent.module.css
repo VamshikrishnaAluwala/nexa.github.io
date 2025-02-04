@@ -1,0 +1,283 @@
+.fi12891091Icon {
+  width: 1.25rem;
+  position: relative;
+  height: 1.25rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.span {
+  width: 5.5rem;
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 1.5rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.responsive {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.expandLess {
+  position: relative;
+  font-size: var(--icon-medium-size);
+  line-height: 100%;
+  font-family: var(--v-icon-small);
+  color: var(--neutral-dark-grey);
+  text-align: center;
+}
+.matExpansionPanelHeader {
+  align-self: stretch;
+  background-color: var(--neutral-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0rem;
+  gap: var(--gap-3xs);
+}
+.uploadCallTranscriptproposa {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 140%;
+  color: var(--black-087);
+  text-align: left;
+}
+.trayArrowUpIcon {
+  width: 1.5rem;
+  position: relative;
+  height: 1.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.dragAnDrop {
+  position: relative;
+  line-height: 1.5rem;
+}
+.limit200mbPer {
+  position: relative;
+  font-size: var(--font-size-xs);
+  line-height: 120%;
+  font-family: var(--text-body-2);
+  color: var(--color-dimgray-100);
+}
+.dragAnDropFileParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.fileUploader {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  background-color: var(--neutral-grey-1);
+  border: 1px dashed var(--neutral-light-grey);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-base);
+  gap: var(--gap-xs);
+  color: var(--color-black);
+}
+.fi8361363Icon {
+  width: 2rem;
+  position: relative;
+  height: 2rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.fi15465638 {
+  border-radius: var(--br-9xs);
+  background-color: var(--neutral-white);
+  border: 1px solid var(--neutral-light-grey);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xs);
+}
+.callTranscripttxt {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 100%;
+}
+.groupChild {
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  border-radius: var(--br-9xs);
+  background-color: var(--neutral-lighter-grey);
+  width: 13.25rem;
+  height: 0.25rem;
+}
+.groupItem {
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  border-radius: var(--br-9xs);
+  background-color: var(--custom-success);
+  width: 13.25rem;
+  height: 0.25rem;
+}
+.rectangleParent {
+  align-self: stretch;
+  position: relative;
+  height: 0.25rem;
+}
+.mb {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 160%;
+}
+.uploaded {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 160%;
+  color: var(--secondary-green-mid);
+}
+.mbParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  font-size: var(--font-size-xs);
+  color: var(--neutral-dark-grey);
+}
+.callTranscripttxtParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.closeWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xs);
+}
+.fi15465638Parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.uploadCallTranscriptproposaParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.matDivider {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--neutral-lighter-grey);
+  height: 0.063rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.customizeYourBrd {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 140%;
+}
+.selectSections {
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 100%;
+  z-index: 0;
+}
+.floatingLabel {
+  width: 5.25rem;
+  margin: 0 !important;
+  position: absolute;
+  top: -0.375rem;
+  left: 0.5rem;
+  background-color: var(--neutral-white);
+  height: 0.75rem;
+  display: none;
+  z-index: 1;
+}
+.chevronDownIcon {
+  width: 1.25rem;
+  position: relative;
+  height: 1.25rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.inputSlot {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  background-color: var(--neutral-white);
+  border: 1px solid var(--neutral-light-grey);
+  box-sizing: border-box;
+  height: 2.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-5xs) var(--padding-xs);
+  position: relative;
+  cursor: pointer;
+  color: var(--neutral-dark-grey);
+}
+.customizeYourBrdParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  text-align: left;
+  color: var(--black-087);
+}
+.frameParent {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  text-align: center;
+  color: var(--neutral-grey-dark);
+}
+.buttonParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.matExpansionPanelHeaderParent {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0rem var(--padding-5xl);
+  gap: var(--gap-xs);
+  text-align: left;
+  font-size: var(--v-text-button-size);
+  color: var(--custom-primary);
+  font-family: var(--v-text-subtitle-1);
+}

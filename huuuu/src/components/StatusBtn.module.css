@@ -1,0 +1,33 @@
+.checkCircleOutlineIcon {
+  width: 1rem;
+  position: relative;
+  height: 1rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.active {
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 1.375rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.root {
+  border-radius: var(--br-5xl);
+  background-color: var(--color-honeydew);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-5xs);
+  gap: var(--gap-9xs);
+  text-align: left;
+  font-size: var(--v-text-button-size);
+  color: var(--black-087);
+  font-family: var(--v-text-subtitle-1);
+}
+.root[data-property1="in-progress"] {
+  background-color: var(--color-orange);
+  box-sizing: border-box;
+}
