@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gilroy-Medium:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Material Icons:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gilroy-SemiBold:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gilroy-Light:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gilroy-Regular:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url("/public/Gilroy-Medium.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Gilroy-SemiBold";
+  src: url("/public/Gilroy-SemiBold.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Gilroy-Light";
+  src: url("/public/Gilroy-Light.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Gilroy-Regular";
+  src: url("/public/Gilroy-Regular.ttf");
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --v-text-subtitle-1: Gilroy-Medium;
+  --v-icon-small: "Material Icons";
+  --v-text-button: Gilroy-SemiBold;
+  --font-poppins: Poppins;
+  --text-body-2: Gilroy-Regular;
+  --font-gilroy-light: Gilroy-Light;
+  --font-roboto: Roboto;
+
+  /* font sizes */
+  --v-text-button-size: 0.875rem;
+  --v-icon-small-size: 1rem;
+  --font-size-xs: 0.75rem;
+  --icon-medium-size: 1.5rem;
+  --v-text-h1-size: 2.125rem;
+  --v-text-h4-size: 1.25rem;
+
+  /* Colors */
+  --neutral-white: #fff;
+  --black-dark-2: #292929;
+  --neutral-grey-dark: #2c2628;
+  --black: #1c1b1f;
+  --white: #161314;
+  --black-06: rgba(0, 0, 0, 0.6);
+  --black-026: rgba(0, 0, 0, 0.26);
+  --black-012: rgba(0, 0, 0, 0.12);
+  --black-087: rgba(0, 0, 0, 0.87);
+  --color-dimgray-100: #666;
+  --color-dimgray-200: #555;
+  --color-darkslategray-100: #333;
+  --neutral-dark-grey: #2e2d2c;
+  --neutral-light-grey: #e6e6e6;
+  --grey-lighten-2: #e0e0e0;
+  --shades-border-grey: #d9dfe8;
+  --color-black: #000;
+  --custom-primary: #ed1515;
+  --neutral-grey-1: #f8f9fa;
+  --neutral-lighter-grey: #e9ecef;
+  --custom-accent: #8e75f8;
+  --purple-purple-mid: #745cf4;
+  --color-honeydew: #e2f3e8;
+  --custom-success: #207327;
+  --color-orange: rgba(252, 163, 17, 0.1);
+  --custom-warning: #f27d16;
+  --color-purple: #860063;
+  --neutral-mid-grey: #999;
+  --color-aliceblue: #e8ebf2;
+  --secondary-green-mid: #00904d;
+  --custom-secondary: #711a31;
+  --custom-success1: #00a865;
+
+  /* Spacing */
+  --boundvariablesdata: 1rem;
+
+  /* Gaps */
+  --gap-41xl: 3.75rem;
+  --gap-13xl: 2rem;
+  --gap-xl: 1.25rem;
+  --gap-5xs: 0.5rem;
+  --gap-9xs: 0.25rem;
+  --gap-xs: 0.75rem;
+  --gap-7xs: 0.375rem;
+  --gap-base: 1rem;
+  --gap-3xs: 0.625rem;
+  --gap-5xl: 1.5rem;
+  --gap-11xs: 0.125rem;
+
+  /* Paddings */
+  --padding-61xl: 5rem;
+  --padding-base: 1rem;
+  --padding-2xs: 0.687rem;
+  --padding-12xs: 0.062rem;
+  --padding-5xs: 0.5rem;
+  --padding-xs: 0.75rem;
+  --padding-xl: 1.25rem;
+  --padding-5xl: 1.5rem;
+  --padding-3xs: 0.625rem;
+  --padding-13xl: 2rem;
+  --padding-9xs: 0.25rem;
+  --padding-10xs: 0.187rem;
+  --padding-lgi: 1.187rem;
+
+  /* Border radiuses */
+  --br-5xl: 24px;
+  --br-29xl: 48px;
+  --br-31xl: 50px;
+  --br-9xs: 4px;
+  --br-74xl-1: 93.1px;
+  --br-xs: 12px;
+  --br-5xs: 8px;
+  --br-13xl: 32px;
+
+  /* Effects */
+  --elevation-4: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}

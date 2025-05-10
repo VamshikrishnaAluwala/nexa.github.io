@@ -1,0 +1,238 @@
+.search {
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 22px;
+}
+.magnifyIcon {
+  width: 16px;
+  position: relative;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.matTreeviewNodeRoot {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  background-color: var(--neutral-grey-1);
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px var(--padding-xs);
+  box-sizing: border-box;
+}
+.sttextInput {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--v-text-button-size);
+}
+.matBtnIcon {
+  width: 24px;
+  border-radius: var(--br-13xl);
+  height: 24px;
+  object-fit: contain;
+}
+.vIcon {
+  position: relative;
+  line-height: 100%;
+}
+.checkbox {
+  border-radius: var(--br-13xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.introduction {
+  position: relative;
+  font-size: var(--v-text-button-size);
+  letter-spacing: 0.1px;
+  line-height: 22px;
+  font-family: var(--v-text-subtitle-1);
+  color: var(--black-087);
+}
+.catLevel2A {
+  align-self: stretch;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  color: var(--purple-purple-mid);
+}
+.span {
+  position: relative;
+  line-height: 20px;
+  font-family: var(--font-roboto);
+  color: var(--black-087);
+  display: none;
+}
+.matBtn {
+  width: 24px;
+  border-radius: var(--br-13xl);
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+}
+.checkbox1 {
+  border-radius: var(--br-13xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: var(--purple-purple-mid);
+}
+.matBtn3 {
+  width: 24px;
+  border-radius: var(--br-13xl);
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.catLevel2B {
+  align-self: stretch;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.catLevel2AParent {
+  align-self: stretch;
+  height: 184px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  color: var(--neutral-dark-grey);
+  font-family: var(--v-icon-small);
+}
+.matDivider {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--neutral-lighter-grey);
+  height: 1px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.label {
+  align-self: stretch;
+  position: relative;
+  line-height: 100%;
+}
+.textGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.textGroupParent {
+  align-self: stretch;
+  background-color: var(--neutral-white);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-5xs);
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--black);
+}
+.checkbox7 {
+  width: 32px;
+  border-radius: var(--br-13xl);
+  height: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0px var(--padding-base);
+  box-sizing: border-box;
+}
+.region1 {
+  flex: 1;
+  position: relative;
+  font-size: var(--v-text-button-size);
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  font-family: var(--text-body-2);
+  color: var(--neutral-dark-grey);
+  text-align: left;
+}
+.matExpansionPanelContentW {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-5xs);
+  gap: var(--gap-5xs);
+}
+.region11 {
+  flex: 1;
+  position: relative;
+  font-size: var(--v-icon-small-size);
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  font-family: var(--text-body-2);
+  color: var(--neutral-dark-grey);
+  text-align: left;
+}
+.matExpansionPanelContentWParent {
+  width: 372px;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: var(--neutral-mid-grey);
+  font-family: var(--v-icon-small);
+}
+.geoSelection {
+  position: absolute;
+  top: 4px;
+  left: calc(50% - 160px);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-9xs);
+  background-color: var(--neutral-white);
+  border: 1px solid var(--neutral-light-grey);
+  box-sizing: border-box;
+  width: 320px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs);
+  gap: var(--gap-5xs);
+}
+.brdSections {
+  width: 328px;
+  position: relative;
+  height: 317px;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  text-align: center;
+  font-size: var(--icon-medium-size);
+  color: var(--black-087);
+  font-family: var(--v-text-subtitle-1);
+}

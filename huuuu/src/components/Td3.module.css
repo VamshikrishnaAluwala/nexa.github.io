@@ -1,0 +1,44 @@
+.frameChild {
+  width: 2.5rem;
+  position: relative;
+  border-radius: var(--br-74xl-1);
+  height: 2.5rem;
+  object-fit: cover;
+}
+.frameItem {
+  width: 2.5rem;
+  position: relative;
+  border-radius: var(--br-74xl-1);
+  height: 2.5rem;
+  object-fit: cover;
+  margin-left: -0.75rem;
+}
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.div {
+  position: relative;
+}
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.td {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0rem var(--padding-5xs);
+  text-align: center;
+  font-size: var(--v-text-button-size);
+  color: var(--neutral-dark-grey);
+  font-family: var(--v-text-subtitle-1);
+}

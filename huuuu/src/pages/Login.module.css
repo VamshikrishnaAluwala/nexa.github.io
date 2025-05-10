@@ -1,0 +1,77 @@
+.loginChild {
+  position: absolute;
+  top: 3.75rem;
+  left: calc(50% - 470px);
+  width: 38.75rem;
+  height: 53.875rem;
+  object-fit: contain;
+}
+.isolationModeIcon {
+  position: absolute;
+  bottom: 0rem;
+  left: calc(50% - 756px);
+  width: 56.375rem;
+  height: 61.375rem;
+  overflow: hidden;
+  display: none;
+}
+.imageIcon {
+  position: absolute;
+  top: 7.5rem;
+  left: 0rem;
+  border-radius: 0px var(--br-5xl) var(--br-5xl) 0px;
+  width: 58.25rem;
+  height: 46.375rem;
+  object-fit: cover;
+}
+.loginItem {
+  position: absolute;
+  top: 3.719rem;
+  left: 49.125rem;
+  max-height: 100%;
+  width: 45.375rem;
+}
+.loginInner {
+  position: absolute;
+  bottom: 3.419rem;
+  left: 0rem;
+  max-height: 100%;
+  width: 25.375rem;
+}
+.groupChild {
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  width: 20.281rem;
+  height: 3.688rem;
+  object-fit: contain;
+}
+.groupItem {
+  position: absolute;
+  top: 0rem;
+  left: 23.969rem;
+  background-color: rgba(0, 0, 0, 0.06);
+  width: 7.375rem;
+  height: 3.688rem;
+}
+.vectorParent {
+  position: absolute;
+  top: 57.688rem;
+  left: 63.188rem;
+  width: 31.344rem;
+  height: 3.688rem;
+}
+.rectangleIcon {
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  width: 17.906rem;
+  height: 3.75rem;
+}
+.login {
+  width: 100%;
+  position: relative;
+  background-color: var(--neutral-white);
+  height: 61.375rem;
+  overflow: hidden;
+}

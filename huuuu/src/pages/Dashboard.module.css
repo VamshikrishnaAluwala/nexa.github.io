@@ -1,0 +1,107 @@
+.isolationModeIcon {
+  position: absolute;
+  bottom: 0rem;
+  left: calc(50% - 756px);
+  width: 56.375rem;
+  height: 61.375rem;
+  overflow: hidden;
+  display: none;
+}
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.drawer {
+  position: absolute;
+  top: 4.5rem;
+  left: 0rem;
+  background-color: var(--neutral-grey-1);
+  border-right: 1px solid var(--neutral-lighter-grey);
+  box-sizing: border-box;
+  height: 56.875rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-xl) var(--padding-5xs);
+}
+.imageIcon {
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  border-radius: var(--br-xs);
+  width: 84.5rem;
+  height: 26.25rem;
+  object-fit: cover;
+}
+.unlockThePower {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 120%;
+}
+.theNexaAi {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--v-text-h4-size);
+  letter-spacing: 0.02em;
+  line-height: 150%;
+  font-family: var(--text-body-2);
+}
+.unlockThePowerOfYourClienParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.text {
+  position: absolute;
+  top: 4.438rem;
+  left: 41.313rem;
+  width: 40.188rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.frameChild {
+  position: absolute;
+  top: 0rem;
+  left: 1.25rem;
+  width: 38.313rem;
+  height: 26.25rem;
+}
+.imageIcon1 {
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  width: 38.313rem;
+  height: 26.25rem;
+  object-fit: cover;
+}
+.imageParent {
+  position: absolute;
+  top: 6.5rem;
+  left: 8rem;
+  border-radius: var(--br-xs);
+  width: 84.5rem;
+  height: 26.25rem;
+  overflow: hidden;
+}
+.dashboard {
+  width: 100%;
+  position: relative;
+  background-color: var(--neutral-white);
+  height: 61.375rem;
+  overflow: hidden;
+  text-align: left;
+  font-size: 3rem;
+  color: var(--black-087);
+  font-family: var(--font-gilroy-light);
+}
